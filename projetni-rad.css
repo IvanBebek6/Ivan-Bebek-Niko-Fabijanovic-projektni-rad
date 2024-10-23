@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #195b1b;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-container input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.search-container button {
+    padding: 5px;
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #777;
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 10px 20px;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .search-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .search-container input {
+        padding: 5px;
+        margin-right: 5px;
+    }
+    
+    .search-container button {
+        padding: 5px;
+    }
+}
+
+body {
+    background-color: #f0f0f0; /* svijetla pozadina */
+    font-family: Arial, sans-serif; /* font */
+    line-height: 1.6; /* poboljšanje čitljivosti */
+    padding: 20px; /* razmak od ruba */
+}
+
+.naslov {
+    text-align: center; /* centriranje teksta */
+    color: #1d2b1e; /* zelena boja */
+    font-size: 2.5em; /* veličina fonta */
+    margin-top: 50px; /* razmak od vrha */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* sjena teksta */
+}
+
+.podnaslov {
+    text-align: center; /* centriranje podnaslova */
+    color: #333; /* tamnija boja */
+    font-size: 2em; /* veličina podnaslova */
+    margin-top: 30px; /* razmak od prethodnog elementa */
+    margin-bottom: 10px; /* razmak ispod podnaslova */
+}
+
+.manji-podnaslov {
+    text-align: center; /* lijevo poravnanje za manje podnaslove */
+    color: #555; /* svjetlija tamna boja */
+    font-size: 1.5em; /* veličina manjih podnaslova */
+    margin-top: 20px; /* razmak od prethodnog elementa */
+}
+
+.tekst {
+    color: #666; /* svijetlosiva boja za tekst */
+    font-size: 1em; /* veličina teksta */
+    margin: 10px 0; /* razmak iznad i ispod teksta */
+    text-align: justify; /* poravnavanje teksta */
+}
+.slika {
+    display: block; /* prikazivanje kao blok */
+    margin: 20px auto; /* centriranje slike */
+    max-width: 100%; /* maksimalna širina slike */
+    height: 613px;
+    width: 960px;
+    object-fit: cover;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+
+main {
+    padding: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1e6c21;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-image: url('Koprivnica.jpg'); /* Zamijeni s pravom putanjom do slike */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Visina hedera */
+    color: white; /* Boja teksta */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.title {
+    font-size: 3em; /* Povećava veličinu fonta */
+    font-weight: bold; /* Čini tekst debelim */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Dodaje sjenu za isticanje */
+}
